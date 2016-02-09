@@ -1,0 +1,11 @@
+<?php
+	$host="localhost";
+	$username="root";
+	$password="";
+	$dbname="cyber";
+	$connect=mysql_connect($host,$username,$password);
+	if($connect)
+	{
+		$select=mysql_select_db($dbname);
+	}
+?>
